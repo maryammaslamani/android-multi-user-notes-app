@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CBEEF3"
+    android:fillViewport="true"
+    android:theme="@style/NotesVisualColors">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="24dp"
+        android:paddingTop="28dp"
+        android:paddingRight="24dp"
+        android:paddingBottom="24dp"
+        android:background="@drawable/notes_visual_card"
+        android:layout_margin="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Create Account"
+            android:textColor="#243238"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="Register to start creating notes"
+            android:textColor="#4B5D64"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/editText_signupEmail"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:hint="Email address"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:textColor="#243238"
+            android:textColorHint="#4B5D64"
+            android:textSize="16sp"
+            android:backgroundTint="@color/notes_visual_control_tint" />
+
+        <EditText
+            android:id="@+id/editText_signupFirstName"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="16dp"
+            android:hint="First name"
+            android:inputType="textPersonName"
+            android:maxLines="1"
+            android:textColor="#243238"
+            android:textColorHint="#4B5D64"
+            android:textSize="16sp"
+            android:backgroundTint="@color/notes_visual_control_tint" />
+
+        <EditText
+            android:id="@+id/editText_signupLastName"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="16dp"
+            android:hint="Last name"
+            android:inputType="textPersonName"
+            android:maxLines="1"
+            android:textColor="#243238"
+            android:textColorHint="#4B5D64"
+            android:textSize="16sp"
+            android:backgroundTint="@color/notes_visual_control_tint" />
+
+        <EditText
+            android:id="@+id/editText_signupPassword"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="16dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:textColor="#243238"
+            android:textColorHint="#4B5D64"
+            android:textSize="16sp"
+            android:backgroundTint="@color/notes_visual_control_tint" />
+
+        <EditText
+            android:id="@+id/editText_signupConfirmPassword"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="16dp"
+            android:hint="Confirm password"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:textColor="#243238"
+            android:textColorHint="#4B5D64"
+            android:textSize="16sp"
+            android:backgroundTint="@color/notes_visual_control_tint" />
+
+        <Button
+            android:id="@+id/button_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Register"
+            android:textAllCaps="false"
+            android:background="@drawable/notes_visual_button_primary"
+            android:backgroundTint="@null"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"
+            android:minHeight="52dp"
+            app:backgroundTint="@null" />
+
+        <Button
+            android:id="@+id/button_backToLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Back to Sign In"
+            android:textAllCaps="false"
+            android:background="@drawable/notes_visual_button_secondary"
+            android:backgroundTint="@null"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"
+            android:minHeight="52dp"
+            app:backgroundTint="@null" />
+
+    </LinearLayout>
+</ScrollView>
